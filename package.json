@@ -1,0 +1,33 @@
+{
+  "name": "jsx-transform-2-loader",
+  "version": "1.0.0",
+  "description": "Configurable webpack loader for jsx-transform v2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gfmio/jsx-transform-2-loader.git"
+  },
+  "keywords": [
+    "virtualdom",
+    "jsx",
+    "loader",
+    "transform",
+    "webpack",
+    "react",
+    "snabbdom",
+    "mercury"
+  ],
+  "author": "Frédérique Mittelstaedt <frederique@gfm.io> (https://www.gfm.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gfmio/jsx-transform-2-loader/issues"
+  },
+  "homepage": "https://github.com/gfmio/jsx-transform-2-loader#readme",
+  "dependencies": {
+    "jsx-transform": "^2.3.0",
+    "loader-utils": "^1.1.0"
+  }
+}
