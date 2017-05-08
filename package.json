@@ -1,6 +1,6 @@
 {
   "name": "jsx-transform-2-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Configurable webpack loader for jsx-transform v2",
   "main": "index.js",
   "scripts": {

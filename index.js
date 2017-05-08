@@ -6,8 +6,8 @@ module.exports = function(source) {
 
   const options = Object.assign(
     {},
-    loaderUtils.getOptions(this),
-    { factory: 'h' }
+    { factory: 'h' },
+    loaderUtils.getOptions(this)
   );
 
   const result = jsxtransform.fromString(source, options);
