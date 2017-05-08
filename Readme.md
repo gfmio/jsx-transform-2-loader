@@ -3,6 +3,12 @@ jsx-transform-2-loader
 
 jsx-transform-2-loader is a Webpack loader that transforms JSX decoupled from React (or any specific framework) using v2 of the `jsx-transformer` package. It is based on `jsx-transform-loader` which however uses an old version of `jsx-transform`.
 
+# Install
+
+```shell
+npm install --save-dev jsx-transform-2-loader
+```
+
 # Usage
 
 Include the package as a loader in your Webpack config. You may specify all options that `jsx-transform` accepts. The most important option is the `factory` option (default: `h`), which determines the name of the factory function used to construct the Virtual DOM objects.
